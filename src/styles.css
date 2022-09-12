@@ -6,13 +6,18 @@
 .App {
   width: 600px;
   max-width: 85%;
-  height: 250px;
+  min-height: 250px;
   text-align: center;
   border: 1px solid black;
   background: purple;
   color: white;
   margin: 150px auto;
   padding: 40px 40px 60px 40px;
+}
+
+body{
+  background-image: url("https://img.freepik.com/free-vector/positive-reactions-with-empty-space-background_79603-1029.jpg?size=626&ext=jpg");
+  background-size: cover;
 }
 
 h1 {
